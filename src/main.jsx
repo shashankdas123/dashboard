@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 // import './react-toastify/dist/ReactToastify.css'
 import { Login, Signup } from "./pages";
-import Home from "./pages/Home";
+
 
 createRoot(document.getElementById('root')).render(
   
