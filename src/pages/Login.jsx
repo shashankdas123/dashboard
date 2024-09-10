@@ -31,7 +31,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://zerodha-backend-hxlx.onrender.com/login",
+        "https://backend-dcj7.onrender.com/login",
         {
           ...inputValue,
         },
