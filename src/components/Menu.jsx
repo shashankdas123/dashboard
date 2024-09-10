@@ -22,7 +22,7 @@ const Menu = ({uname}) => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} />
+      
       <div className="menus">
 
         <hr />
