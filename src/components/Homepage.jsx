@@ -22,7 +22,7 @@ const Homepage = () => {
         }
         else{}
         const { data } = await axios.post(
-          "https://zerodha-backend-hxlx.onrender.com",
+          "https://backend-dcj7.onrender.com",
           {},
           { withCredentials: true }
         );
