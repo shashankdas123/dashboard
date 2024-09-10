@@ -13,7 +13,7 @@ const SellActionWindow = ({ uid }) => {
   console.log("hii i am sell action window")
 
   const handleSellClick = () => {
-    axios.post("http://localhost:3002/removeOrder", {
+    axios.post("https://backend-dcj7.onrender.com/removeOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
